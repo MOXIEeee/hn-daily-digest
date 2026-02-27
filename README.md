@@ -12,10 +12,12 @@
 ## 配置
 
 1. Fork 这个仓库
-2. 在仓库 Settings 中添加 Secrets：
+2. 获取 Gmail 应用密码（见下文）
+3. 在仓库 Settings 中添加 Secrets：
    - `EMAIL_USER` - 你的 Gmail 地址
    - `EMAIL_PASSWORD` - Gmail 应用密码
    - `TO_EMAIL` - 接收摘要的邮箱地址
+   - `GEMINI_API_KEY` - Google AI API Key（可选）
 
 ## 获取 Gmail 应用密码
 
